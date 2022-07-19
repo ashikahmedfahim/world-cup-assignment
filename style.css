@@ -42,10 +42,78 @@ main {
   padding: 16px 25px;
   border-radius: 5px;
 }
-.intro-section button i{
+.intro-section button i {
   padding-left: 10px;
 }
 .intro-section img {
   height: 100%;
   padding-top: 50px;
+}
+
+/* - - - - - match section - - - - -  */
+
+.match-section {
+  margin: 130px 0;
+  display: flex;
+}
+.page-links {
+  width: 312px;
+  height: 312px;
+  background-color: rgb(23, 0, 77);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+  border-radius: 10px;
+  margin-right: 24px;
+}
+.page-links a {
+  width: 250px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#selected-page {
+  background-color: tomato;
+  color: white;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}
+.blog {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+}
+.blog-description {
+  padding: 20px;
+}
+.highlight-text {
+  border: 1px solid #161616;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+.blog-text {
+  padding: 15px 0 20px 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+.icons {
+  display: flex;
+  color: rgba(22, 22, 22, 0.7);;
+}
+.icons i {
+  padding-right: 5px;
+}
+.comment {
+  margin-left: 30px;
 }
