@@ -80,6 +80,7 @@ main {
   padding: 15px;
   font-size: 20px;
   font-weight: 500;
+  color:  rgb(23, 0, 77);
 }
 #selected-page {
   background-color: tomato;
