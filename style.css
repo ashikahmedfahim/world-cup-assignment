@@ -149,13 +149,13 @@ footer a {
   font-size: 16px;
   text-decoration: none;
 }
-.social{
+.social {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px 0;
 }
-.social i{
+.social i {
   margin: 0 25px;
   color: white;
   font-size: 25px;
@@ -249,7 +249,7 @@ footer a {
   footer a {
     margin: 15px;
   }
-  .social{
+  .social {
     padding: 10px 0;
   }
 }
@@ -346,10 +346,39 @@ footer a {
   footer a {
     margin: 10px;
   }
-  .social{
+  .social {
     padding: 10px 0;
   }
-  .social i{
+  .social i {
     font-size: 20px;
   }
+}
+
+/* - - - - -  */
+/* - - - - - match page - - - - -  */
+/* - - - - -  */
+
+.flag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px;
+}
+.flag span {
+  padding: 0 15px;
+}
+.match-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.match-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4d4d4d;
+  text-align: center;
+  margin-bottom: 20px;
 }
