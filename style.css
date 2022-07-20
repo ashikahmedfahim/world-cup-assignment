@@ -124,7 +124,7 @@ main {
 /* - - - - - footer - - - - -  */
 
 footer {
-  height: 444px;
+  height: 460px;
   background-color: rgb(23, 0, 77);
   padding: 130px 100px;
 }
@@ -148,6 +148,17 @@ footer a {
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.social i{
+  margin: 0 25px;
+  color: white;
+  font-size: 25px;
 }
 
 /* - - - - - tablet design - - - - -  */
@@ -225,7 +236,7 @@ footer a {
     border-radius: 5px;
   }
   footer {
-    height: 444px;
+    height: 450px;
     background-color: rgb(23, 0, 77);
     padding: 70px 90px;
   }
@@ -237,6 +248,9 @@ footer a {
   }
   footer a {
     margin: 15px;
+  }
+  .social{
+    padding: 10px 0;
   }
 }
 
@@ -315,7 +329,7 @@ footer a {
     display: none;
   }
   footer {
-    height: 412px;
+    height: 475px;
     padding: 20px 50px;
   }
   footer hr {
@@ -331,5 +345,11 @@ footer a {
   }
   footer a {
     margin: 10px;
+  }
+  .social{
+    padding: 10px 0;
+  }
+  .social i{
+    font-size: 20px;
   }
 }
