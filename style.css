@@ -126,7 +126,7 @@ main {
 footer {
   height: 444px;
   background-color: rgb(23, 0, 77);
-  padding: 130px 140px;
+  padding: 130px 100px;
 }
 .footer-header {
   font-weight: 600;
@@ -139,7 +139,7 @@ footer hr {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .footer-navs {
-  padding: 0 350px;
+  padding: 0 250px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -152,7 +152,7 @@ footer a {
 
 /* - - - - - tablet design - - - - -  */
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and (min-width: 768px) {
   main {
     max-width: 735px;
   }
@@ -210,7 +210,7 @@ footer a {
     align-items: center;
     margin: 50px auto;
   }
-  .view-btn{
+  .view-btn {
     background: tomato;
     color: white;
     font-size: 20px;
@@ -232,5 +232,99 @@ footer a {
   }
   footer a {
     margin: 15px;
+  }
+}
+
+/* - - - - - mobile design - - - - -  */
+
+@media (max-width: 767px) {
+  main {
+    padding-top: 25px;
+    max-width: 334px;
+    margin: 0 auto;
+  }
+  .intro-section {
+    height: 472px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .intro-section > div {
+    width: 100%;
+  }
+  .intro-passage {
+    padding: 25px;
+  }
+  .intro-section h1 {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .intro-section p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .intro-section button {
+    padding: 8px 12px;
+  }
+  .intro-img{
+    display: flex;
+    justify-content: center;
+  }
+  .intro-section img {
+    height: 241px;
+    margin: 0 auto;
+    padding-top: 0px;
+  }
+
+  /* - - - - - match section - - - - -  */
+
+  .match-section {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .page-links {
+    background-color: white;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+  .page-links a {
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    margin: 16px 0;
+  }
+  .blogs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+  }
+  .blog img {
+    width: 100%;
+  }
+  .view-all {
+    display: none;
+  }
+  footer {
+    height: 412px;
+    padding: 20px 50px;
+  }
+  footer hr {
+    margin: 25px 0;
+  }
+  .footer-navs {
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer a {
+    margin: 10px;
   }
 }
